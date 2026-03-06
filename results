@@ -1,0 +1,6 @@
+The movement classification system was successfully implemented using the Seeed Studio XIAO nRF52840 Sense board with its onboard BMI270 sensor. Data representing four distinct movement types—Maritime, Terrestrial, Lift, and Idle—was collected and uploaded to the Edge Impulse Dashboard for labeling, feature extraction, and machine learning model training.
+After training the model with sufficient samples for each class, the deployed model achieved an overall classification accuracy of over 90% on test data. The confusion matrix indicated that Idle and Lift classes had the highest precision, while occasional misclassifications occurred between Terrestrial and Maritime movements due to similar vibration patterns. Real-time classification on the microcontroller showed a consistent and stable performance, with minimal latency and reliable inference on-device. The integration of Edge Impulse streamlined the workflow by automating feature generation and optimizing model deployment. 
+
+
+
+
